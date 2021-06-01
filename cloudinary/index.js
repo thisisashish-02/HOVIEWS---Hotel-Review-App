@@ -9,8 +9,10 @@ cloudinary.config({
 
 const storage = new CloudinaryStorage({
     cloudinary,
-    folder: 'HotelReviewApp',
-    allowedFormats: ['jpeg', 'png', 'jpg']
+    params: {
+        folder: 'HotelReviewApp',
+        allowedFormats: ['jpeg', 'png', 'jpg']
+    }
 });
 
 module.exports = {
