@@ -12,15 +12,12 @@ To see the app in action, go to https://ashish02-hoviews.herokuapp.com/
 * Authorization:
 
   * One cannot add review and hotel without being authenticated
-
   * One cannot edit or delete hotels and comments created by other users
 
 * Manage hotel reviews with basic functionalities:
 
   * Create, edit and delete hotels
-
   * Upload hotel photos
-
   * Display hotel location on Mapbox
 
 * Manage user account with basic functionalities:
@@ -34,7 +31,6 @@ To see the app in action, go to https://ashish02-hoviews.herokuapp.com/
 ### Custom Enhancements
 
 * Add hotel photos when editing campgrounds
-
 * Use Helmet to strengthen security
 
 ## Built with
