@@ -63,7 +63,3 @@ To see the app in action, go to https://ashish02-hoviews.herokuapp.com/
 
 * [Cloudinary](https://cloudinary.com/)
 * [Heroku](https://www.heroku.com/)
-
-## License
-
-#### [MIT](./LICENSE)
