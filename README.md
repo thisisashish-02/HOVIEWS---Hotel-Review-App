@@ -36,28 +36,6 @@ To see the app in action, go to https://ashish02-hoviews.herokuapp.com/
 * Add hotel photos when editing campgrounds
 
 * Use Helmet to strengthen security
- 
-## Getting Started
-
-> This app contains API secrets and passwords that have been hidden deliberately, so the app cannot be run with its features on your local machine. However, feel free to clone this repository if necessary.
-
-### Clone or download this repository
-
-```sh
-git clone https://github.com/thisisashish-02/HOVIEWS---Hotel-Review-App.git
-```
-
-### Install dependencies
-
-```sh
-npm install
-```
-
-or
-
-```sh
-yarn install
-```
 
 ## Built with
 
