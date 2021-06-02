@@ -31,7 +31,7 @@
             <ul class="list-group list-group-flush">
                 <li class="list-group-item text-muted"><%= campground.location %></li>
                 <li class="list-group-item">Submitted by <%= campground.author.username %></li>
-                <li class="list-group-item">$<%= campground.price %>/night</li>
+                <li class="list-group-item">₹<%= campground.price %>/night</li>
             </ul>
             <% if (currentUser && campground.author.equals(currentUser._id)) { %>
             <div class="card-body">
@@ -47,7 +47,7 @@
         </div>
     </div>
     <div class="col-6">
-        <div id='map'></div>
+        <div id='map' class="mb-2"></div>
     
         <% if (currentUser) { %>
         <h2>Leave a Review</h2>
@@ -81,7 +81,7 @@
         </form>
         <% } %>
         <% for (review of campground.reviews) { %>
-        <div class="card mb-3">
+        <div class="card mb-2">
             <div class="card-body">
                 <h5 class="card-title"> <%= review.author.username%></h5>
                 <p class="starability-result" data-rating="<%=review.rating%>">
