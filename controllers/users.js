@@ -11,7 +11,7 @@ module.exports.register = async (req, res, next) => {
         const registeredUser = await User.register(user, password);
         req.login(registeredUser, err => {
             if (err) next(err);
-            req.flash('success', 'Welcome to yelp-camp');
+            req.flash('success', 'Welcome to Hoviews!');
             res.redirect('/campgrounds');
         })
     } catch (e) {
